@@ -10,7 +10,10 @@ const BlogItem = (props) => {
         >
             <Link to={`/blogs/${blog.id}`}>
                 <h2>{blog.title}</h2>
-                <p>Written by{blog.author}</p>
+                <p style={{
+                    color: 'rgb(10 72 153)',
+                    fontWeight: 'bold'
+                }}>Written by {blog.author}</p>
             </Link>
         </div>
     )

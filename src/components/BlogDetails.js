@@ -7,7 +7,7 @@ const BlogDetails = () => {
     const [blog, setBlog] = useState({})
 
     const loadData = () => {
-        fetch('http://localhost:8000/blogs/' + id)
+        fetch(`http://localhost:8000/blogs/${id}`)
             .then(res => res.json())
             .then(data => {
                 setBlog(data)

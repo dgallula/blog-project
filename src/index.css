@@ -12,6 +12,7 @@ code {
 
 a {
     text-decoration: auto;
+    color: rgb(54, 119, 204);
 }
 
 .App-root {
@@ -61,9 +62,38 @@ a {
 }
 
 .CreatBlog-main-container {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     margin: auto;
     width: 70%;
+}
+
+.CreatBlog-form {
+    background-color: rgb(125, 196, 255);
+    margin: auto;
+    border-radius: 5px;
+    width: 70%;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    padding: 20px;
+}
+
+.CreateBlog-input-label {
+    font-weight: bold;
+}
+
+.CreateBlog-submit-button {
+    border-radius: 5px;
+    background-color: rgb(54, 119, 204);
+    border-color: rgb(54, 119, 204);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.CreateBlog-submit-button:hover {
+    background-color: rgb(24, 61, 109);
+    border-color: rgb(24, 61, 109);
 }
 
 
@@ -72,8 +102,11 @@ a {
 .BlogItem-root {
     transition: box-shadow .3s;
     box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    color: rgb(54, 119, 204);
+    border-radius: 5px;
 }
 
 .BlogItem-root:hover {
+    background-color: rgb(209, 209, 209);
     box-shadow: 12px 12px 16px rgba(33, 33, 33, .2);
 }
