@@ -1,69 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
-
 body {
-  margin: 0;
-  font-family: 'Outfit', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 a {
-  text-decoration: auto;
+    text-decoration: auto;
 }
 
 .App-root {
-  height: 100vh;
-  margin: auto;
-  max-width: 600px;
+    height: 100vh;
+    margin: auto;
+    max-width: 600px;
 }
 
 .Nav-root {
-  background-color: rgb(255, 255, 255);
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  border-bottom: 1px solid rgba(17, 17, 17, 0.171);
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.171);
 }
 
 .Nav-title {
-  align-self: center;
-  width: 70%;
+    align-self: center;
+    width: 70%;
 }
 
 .App-content {
-  height: 93vh;
+    height: 93vh;
 }
 
 .CreateBlog-root {
-  height: 93vh;
-  text-align: center;
+    height: 93vh;
+    text-align: center;
 }
 
 .Nav-links {
-  align-self: center;
-  display: flex;
-  width: 30vw;
-  justify-content: space-around;
-  width: 30%;
+    align-self: center;
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+    width: 30%;
 }
 
 .Home-root {
-  height: 100%;
-  text-align: center;
+    height: 100%;
+    text-align: center;
 }
 
 .Submit-post {
-  text-align: center;
+    text-align: center;
 }
 
 .CreatBlog-main-container {
-  background-color: antiquewhite;
-  margin: auto;
-  width: 70%;
+    background-color: antiquewhite;
+    margin: auto;
+    width: 70%;
+}
+
+
+/* BlogItem-root */
+
+.BlogItem-root {
+    transition: box-shadow .3s;
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.BlogItem-root:hover {
+    box-shadow: 12px 12px 16px rgba(33, 33, 33, .2);
 }

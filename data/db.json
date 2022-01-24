@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "My first blog",
+            "body": "Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.",
+            "author": "Moshe"
+        },
+        {
+            "id": 2,
+            "title": "My second blog",
+            "body": "Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.",
+            "author": "Dor"
+        },
+        {
+            "id": 3,
+            "title": "Cool blog",
+            "body": "Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.Learning React with a bit of back-end.",
+            "author": "Sara"
+        }
+    ]
+}
