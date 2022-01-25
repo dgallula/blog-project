@@ -1,7 +1,18 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import TextField from '@mui/material/TextField';
+
+import { makeStyles } from '@mui/styles';
+
+const useStyles = makeStyles({
+    textField_root: {
+        color: 'red'
+    },
+
+});
 
 const CreateBlog = () => {
+    const classes = useStyles();
     const navigate = useNavigate()
 
     const [title, setTitle] = useState('')
@@ -46,16 +57,16 @@ const CreateBlog = () => {
             <h1>CreateBlog</h1>
             <div className="CreatBlog-main-container">
                 <form className="CreatBlog-form">
-                    <label className="CreateBlog-input-label" htmlFor="blog-title">Title:</label>
-                    <br />
-                    <input
-                        type="text"
-                        id="blog-title"
-                        required
+                    <TextField
+                        id="craeteblog-title"
+                        label="Title"
+                        variant="outlined"
                         value={title}
+                        multiline={false}
                         onChange={e => setTitle(e.target.value)}
+                        classes={{ root: classes.textField_root }}
                     />
-                    <br /> <br />
+                    <br />
                     <label className="CreateBlog-input-label" htmlFor="blog-author">Author:</label>
                     <br />
                     <input
